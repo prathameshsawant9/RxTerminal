@@ -5,7 +5,7 @@ Example :
 command to execute "ping -c 4 www.google.com"
 
 In above case the output is thrown every one sec, for which if it had been implemented with Asyntask, it would require a CallBack Interface that is attached to caller Class as well as AsyncTask Class, making the code much complicated.
-But with RxJava, the intermediate response of the command can be emitted "FlowableEmitter<String> emitter"
+But with RxJava2, the intermediate response of the command can be emitted using "FlowableEmitter<String> emitter" of Flowable. 
 
 and the final result would look like 
 
@@ -18,5 +18,6 @@ RxTerminal.execute("ping -c 4 www.google.com")
                       this::printCompleted));
 ```
 
-By
-Prathamesh Sawant.
+MIT License
+
+Copyright (c) 2017 Prathamesh Sawant.
