@@ -1,4 +1,4 @@
-# Rx2Terminal (Sample + Library)
+# RxTerminal (Sample + Library)
 A sample project which demonstrates wrapping of "Android Terminal" code efficiently using RxJava2. This project does not cover all aspects of accessing a Android Terminal. This is just a starter project which demonstrates how easy it is to manage work with RxJava2.
 
 Example : 
